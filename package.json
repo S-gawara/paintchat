@@ -1,11 +1,16 @@
 {
-    "name": "paintchat"
+  "name": "paintchat"
   , "version": "0.0.1"
   , "private": true
-  , "dependencies": {
-      "express": "2.5.11"
+  , 
+  "dependencies": {
+    "express": "2.5.11"
     , "ejs": ">= 0.0.1"
     , "socket.io": ""
     , "log": ""
+  },
+  "engines": {
+  "node": "0.10.35",
+  "npm":  "1.4.28"
   }
 }
