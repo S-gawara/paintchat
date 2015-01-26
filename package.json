@@ -6,11 +6,11 @@
   "dependencies": {
     "express": "2.5.11"
     , "ejs": ">= 0.0.1"
-    , "socket.io": "0.8.7"
-    , "log": ""
+    , "socket.io": "1.3.2"
+    , "log": "1.4.0"
   },
   "engines": {
   "node": "0.10.35",
-  "npm":  "1.4.28"
+  "npm":  "2.3.0"
   }
 }
