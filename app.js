@@ -32,8 +32,13 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/', routes.index);
-app.get('/index', routes.index);
+// app.get('/', routes.index);
+app.get('/paint', routes.paint);
+
+app.get('/', function(req, res){
+  res.render('index', {title: 'PaintChat'});
+});
+
 
 // portを追記
 var port = process.env.PORT || 3000;
