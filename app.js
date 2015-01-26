@@ -48,12 +48,6 @@ app.listen(port, function(){
 // socket.ioのインスタンス
 var io = require('socket.io').listen(app);;
 
-// socket.io
-io.configure(function () { 
-  io.set("transports", ["xhr-polling"]); 
-  io.set("polling duration", 10); 
-});
-
 io.sockets.on('connection', function (socket) {
  
     // クライアントからメッセージ受信
